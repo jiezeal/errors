@@ -16,7 +16,7 @@ again.
 >https://laracasts.com/discuss/channels/general-discussion/vagrant-box-add-problem?page=1  
 
 
-\u0 字符追加到的Javascript文件 怎么解决呢？
+\u0 字符追加到的Javascript文件 怎么解决呢？ 如下图：
 
 ![](image/screenshot_1494827956744.png)
 
