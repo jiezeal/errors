@@ -21,3 +21,6 @@ again.
 ![](image/screenshot_1494827956744.png)
 
 解决方法：nginx 配置文件中加sendfile off
+
+
+
