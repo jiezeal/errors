@@ -23,6 +23,10 @@ again.
 解决方法：nginx 配置文件中加sendfile off
 
 ###清空具有外键约束的表时报ERROR 1701(42000)
+```
+mysql> truncate roles;
+ERROR 1701 (42000): Cannot truncate a table referenced in a foreign key constraint (`laramall`.`permission_role`, CONSTRAINT `permission_role_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `laramall`.`roles` (`id`))
+```
 
 
 
