@@ -27,7 +27,7 @@ again.
 mysql> truncate roles;
 ERROR 1701 (42000): Cannot truncate a table referenced in a foreign key constraint (`laramall`.`permission_role`, CONSTRAINT `permission_role_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `laramall`.`roles` (`id`))
 ```
-解决方法： set foreign_key_checks = 0;
+解决方法： set foreign_key_checks = 0;  清空后再运行 set foreign_key_checks = 1;
 
 
 
