@@ -30,3 +30,4 @@ ERROR 1701 (42000): Cannot truncate a table referenced in a foreign key constrai
 
 
 
+
