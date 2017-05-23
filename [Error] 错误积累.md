@@ -1,6 +1,6 @@
-[Error] 错误积累
+#[Error] 错误积累
 	
-Vagrant box add problem
+###Vagrant box add problem
 
 错误信息：
 ```
@@ -16,12 +16,13 @@ again.
 >https://laracasts.com/discuss/channels/general-discussion/vagrant-box-add-problem?page=1  
 
 
-\u0 字符追加到的Javascript文件 怎么解决呢？ 如下图：
+###\u0 字符追加到的Javascript文件 怎么解决呢？ 如下图：
 
 ![](image/screenshot_1494827956744.png)
 
 解决方法：nginx 配置文件中加sendfile off
 
+###清空具有外键约束的表时报ERROR 1701(42000)
 
 
 
