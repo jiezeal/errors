@@ -30,4 +30,10 @@ ERROR 1701 (42000): Cannot truncate a table referenced in a foreign key constrai
 解决方法： set foreign_key_checks = 0;  清空后再运行 set foreign_key_checks = 1;
 
 
+服务器证书验证失败。CAfile：/etc/ssl/certs/ca-certificates.crt CRLfile：none
+参考资料：
+>https://stackoverflow.com/questions/21181231/server-certificate-verification-failed-cafile-etc-ssl-certs-ca-certificates-c
+
+解决办法：git config --global http.sslverify false
+
 
