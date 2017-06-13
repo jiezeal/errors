@@ -37,3 +37,10 @@ ERROR 1701 (42000): Cannot truncate a table referenced in a foreign key constrai
 解决办法：git config --global http.sslverify false
 
 
+运行 composer install 报"Killed"错误
+解决办法：上传 composer.lock 文件到当前项目根目录，再运行 composer install
+参考资料：
+> https://stackoverflow.com/questions/17818472/composer-update-process-killed/20491886  
+
+
+
