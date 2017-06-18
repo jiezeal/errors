@@ -45,14 +45,14 @@ ERROR 1701 (42000): Cannot truncate a table referenced in a foreign key constrai
 
 ### DataTables warning: table id=datatable_paginate - Cannot reinitialise DataTable. For more information about this error, please see http://datatables.net/tn/3
 
-![](images/screenshot_1497775641283.png)
+![](images/screenshot_1497775978254.png)
 
 参考资料：
 >https://datatables.net/manual/tech-notes/3
 
 解决办法：
 ```
-retrieve: true,
+retrieve: true
 ```
 
 
